@@ -101,3 +101,13 @@ position = Vector2( 52, 55 )
 
 [node name="Tile32" parent="Tiles" instance=ExtResource( 1 )]
 position = Vector2( 60, 55 )
+
+[node name="Note" type="Label" parent="."]
+margin_left = -219.0
+margin_top = -68.0
+margin_right = 309.0
+margin_bottom = -3.0
+text = "Left Click = Place Tree
+Right Click = Remove Tree
+
+After Removing tree, timer in tile scene starts, which causes burn every 5 seconds"
