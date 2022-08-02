@@ -42,6 +42,8 @@ func _on_Tile_input_event(_viewport, event, _shape_idx):
 	elif event is InputEventMouseButton and event.pressed and event.button_index == BUTTON_RIGHT and tree_sprite.visible == true:
 		tree_sprite.visible = false
 		tree_placed = false
+
+	if Input.is_action_pressed("ui_accept") and tree_placed == false:
 		half_burnt_timer.start()
 
 func _on_Timer_timeout():
