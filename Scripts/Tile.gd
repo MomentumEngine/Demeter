@@ -24,10 +24,6 @@ func _ready(): #Called when node enters the scene for the first time
 	half_burnt_timer.set_wait_time(wait_time_before_burn)
 	full_burnt_timer.set_wait_time(wait_time_before_burn)
 
-
-func _process(delta): #Called once every 60 seconds
-	pass
-
 func _on_Tile_mouse_entered():
 	cursor.visible = true
 

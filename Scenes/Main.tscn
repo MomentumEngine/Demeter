@@ -7,100 +7,100 @@
 [node name="Tiles" type="Node" parent="."]
 
 [node name="Tile" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 4, 31 )
+position = Vector2( 4, 36 )
 
 [node name="Tile2" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 12, 31 )
+position = Vector2( 12, 36 )
 
 [node name="Tile3" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 20, 31 )
+position = Vector2( 20, 36 )
 
 [node name="Tile4" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 28, 31 )
+position = Vector2( 28, 36 )
 
 [node name="Tile5" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 36, 31 )
+position = Vector2( 36, 36 )
 
 [node name="Tile6" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 44, 31 )
+position = Vector2( 44, 36 )
 
 [node name="Tile7" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 52, 31 )
+position = Vector2( 52, 36 )
 
 [node name="Tile8" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 60, 31 )
+position = Vector2( 60, 36 )
 
 [node name="Tile9" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 4, 39 )
+position = Vector2( 4, 44 )
 
 [node name="Tile10" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 12, 39 )
+position = Vector2( 12, 44 )
 
 [node name="Tile11" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 20, 39 )
+position = Vector2( 20, 44 )
 
 [node name="Tile12" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 28, 39 )
+position = Vector2( 28, 44 )
 
 [node name="Tile13" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 36, 39 )
+position = Vector2( 36, 44 )
 
 [node name="Tile14" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 44, 39 )
+position = Vector2( 44, 44 )
 
 [node name="Tile15" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 52, 39 )
+position = Vector2( 52, 44 )
 
 [node name="Tile16" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 60, 39 )
+position = Vector2( 60, 44 )
 
 [node name="Tile17" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 4, 47 )
+position = Vector2( 4, 52 )
 
 [node name="Tile18" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 12, 47 )
+position = Vector2( 12, 52 )
 
 [node name="Tile19" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 20, 47 )
+position = Vector2( 20, 52 )
 
 [node name="Tile20" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 28, 47 )
+position = Vector2( 28, 52 )
 
 [node name="Tile21" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 36, 47 )
+position = Vector2( 36, 52 )
 
 [node name="Tile22" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 44, 47 )
+position = Vector2( 44, 52 )
 
 [node name="Tile23" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 52, 47 )
+position = Vector2( 52, 52 )
 
 [node name="Tile24" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 60, 47 )
+position = Vector2( 60, 52 )
 
 [node name="Tile25" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 4, 55 )
+position = Vector2( 4, 60 )
 
 [node name="Tile26" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 12, 55 )
+position = Vector2( 12, 60 )
 
 [node name="Tile27" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 20, 55 )
+position = Vector2( 20, 60 )
 
 [node name="Tile28" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 28, 55 )
+position = Vector2( 28, 60 )
 
 [node name="Tile29" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 36, 55 )
+position = Vector2( 36, 60 )
 
 [node name="Tile30" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 44, 55 )
+position = Vector2( 44, 60 )
 
 [node name="Tile31" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 52, 55 )
+position = Vector2( 52, 60 )
 
 [node name="Tile32" parent="Tiles" instance=ExtResource( 1 )]
-position = Vector2( 60, 55 )
+position = Vector2( 60, 60 )
 
 [node name="Note" type="Label" parent="."]
 margin_left = -155.0
