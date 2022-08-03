@@ -26,6 +26,7 @@ texture = ExtResource( 6 )
 
 [node name="TreeSprite" type="Sprite" parent="."]
 visible = false
+position = Vector2( 0, -1 )
 texture = ExtResource( 4 )
 
 [node name="Cursor" type="Sprite" parent="."]

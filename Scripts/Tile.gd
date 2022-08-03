@@ -10,14 +10,14 @@ onready var tree_sprite = get_node("TreeSprite")
 onready var half_burnt_timer = get_node("HalfBurntTimer")
 onready var full_burnt_timer = get_node("FullBurntTimer")
 
-var tree_placed:bool
+var has_tree:bool
 var is_halfburnt:bool
 var is_fullburnt:bool
 
 var wait_time_before_burn:int = 5
 
 func _ready(): #Called when node enters the scene for the first time
-	tree_placed = false
+	has_tree = false
 	is_halfburnt = false
 	is_fullburnt = false
 	
@@ -37,13 +37,13 @@ func _on_Tile_mouse_exited():
 func _on_Tile_input_event(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton and event.pressed and event.button_index == BUTTON_LEFT and tree_sprite.visible == false and is_halfburnt == false and is_fullburnt == false:
 		tree_sprite.visible = true
-		tree_placed = true
+		has_tree = true
 
 	elif event is InputEventMouseButton and event.pressed and event.button_index == BUTTON_RIGHT and tree_sprite.visible == true:
 		tree_sprite.visible = false
-		tree_placed = false
+		has_tree = false
 
-	if Input.is_action_pressed("ui_accept") and tree_placed == false:
+	if Input.is_action_pressed("ui_accept") and has_tree == false:
 		half_burnt_timer.start()
 
 func _on_Timer_timeout():
@@ -51,7 +51,7 @@ func _on_Timer_timeout():
 	half_burnt_tile_sprite.visible = true
 	is_halfburnt = true
 	is_fullburnt = false
-	tree_placed = false
+	has_tree = false
 	
 	full_burnt_timer.start()
 
@@ -60,4 +60,4 @@ func _on_FullBurntTimer_timeout():
 	full_burnt_tile_sprite.visible = true
 	is_halfburnt = false
 	is_fullburnt = true
-	tree_placed = false
+	has_tree = false
