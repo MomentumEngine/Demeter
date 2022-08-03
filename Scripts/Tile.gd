@@ -14,7 +14,7 @@ var has_tree:bool
 var is_halfburnt:bool
 var is_fullburnt:bool
 
-var wait_time_before_burn:int = 5
+export var wait_time_before_burn:int = 5
 
 func _ready(): #Called when node enters the scene for the first time
 	has_tree = false
