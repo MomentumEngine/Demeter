@@ -1,4 +1,7 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
 
-[node name="TileMap" type="TileMap"]
+[ext_resource path="res://Scenes/Level.gd" type="Script" id=1]
+
+[node name="InteractiveTilemap" type="TileMap"]
 format = 1
+script = ExtResource( 1 )
