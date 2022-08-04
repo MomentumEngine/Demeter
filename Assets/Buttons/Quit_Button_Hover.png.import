@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/layout_template_menubar.png-adc1ea3881627d0296090caf9e5eca2a.stex"
+path="res://.import/Quit_Button_Hover.png-f3a4ffc6791b15237fcbed6f04fe1668.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/layout_template_menubar.png"
-dest_files=[ "res://.import/layout_template_menubar.png-adc1ea3881627d0296090caf9e5eca2a.stex" ]
+source_file="res://Assets/Buttons/Quit_Button_Hover.png"
+dest_files=[ "res://.import/Quit_Button_Hover.png-f3a4ffc6791b15237fcbed6f04fe1668.stex" ]
 
 [params]
 
