@@ -8,14 +8,21 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "TileMap",
+"class": "InteractiveTilemap",
+"language": "GDScript",
+"path": "res://Scenes/Level.gd"
+} ]
+_global_script_class_icons={
+"InteractiveTilemap": ""
+}
+
 [application]
 
 config/name="Demeter"
-run/main_scene="res://Scenes/MainMenu.tscn"
-
-[autoload]
-
-ScreenTransition="*res://Scenes/ScreenTransition.tscn"
+run/main_scene="res://Scenes/Main.tscn"
+config/icon="res://icon.png"
 
 [display]
 
